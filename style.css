@@ -9,11 +9,13 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .stay-beside {
     width: 50%;
     padding-left: 5%;
+
 }
 
 .stay-beside img {
@@ -32,4 +34,10 @@ section {
 .back-img {
     background-repeat: no-repeat;
     background-image: url(top-banner.png);
+}
+
+.dreambig {
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
